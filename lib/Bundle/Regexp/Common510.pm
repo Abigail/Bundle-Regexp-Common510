@@ -16,6 +16,10 @@ __END__
 
 Bundle::Regexp::Common510 - Bundle for Regexp::Common510
 
+=head1 SYNOPSIS
+
+ perl -MCPAN -e 'install Bundle::Regexp::Common510'
+
 =head1 DESCRIPTION
 
 This is a bundle for C<< Regexp::Common510 >>. It contains the basic module,
@@ -24,7 +28,9 @@ modules providing patterns and a module geared to test the patterns.
 =head1 CONTENTS
 
 Test::Regexp                 2013041201
+
 Regexp::Common510
+
 Regexp::Common510::Net
 
 =head1 BUGS
