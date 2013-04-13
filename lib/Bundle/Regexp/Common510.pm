@@ -1,6 +1,6 @@
 package Bundle::Regexp::Common510;
 
-use 5.006;
+use 5.010;
 use strict;
 use warnings;
 no  warnings 'syntax';
@@ -14,11 +14,18 @@ __END__
 
 =head1 NAME
 
-Bundle::Regexp::Common510 - Abstract
-
-=head1 SYNOPSIS
+Bundle::Regexp::Common510 - Bundle for Regexp::Common510
 
 =head1 DESCRIPTION
+
+This is a bundle for C<< Regexp::Common510 >>. It contains the basic module,
+modules providing patterns and a module geared to test the patterns.
+
+=head1 CONTENTS
+
+Test::Regexp                 2013041201
+Regexp::Common510
+Regexp::Common510::Net
 
 =head1 BUGS
 
@@ -28,8 +35,8 @@ Bundle::Regexp::Common510 - Abstract
 
 =head1 DEVELOPMENT
 
-The current sources of this module are found on github,
-L<< git://github.com/Abigail/Bundle--Regexp--Common510.git >>.
+The current sources of this bundle are found on github,
+L<< git://github.com/Abigail/Bundle-Regexp-Common510.git >>.
 
 =head1 AUTHOR
 
