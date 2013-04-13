@@ -15,7 +15,7 @@ my  $LIB_FILE     =  "lib/$PACKAGE.pm";
 my  $LOCAL_ADDR   =  'cpan';
 my  $DOMAIN       =  'abigail.be';
 my  $REPO         =   $PACKAGE;
-    $REPO         =~  s!::!--!g;
+    $REPO         =~  s!::!-!g;
 my  $REPO_HOST    =  'github.com';
 my  $ME           =  'Abigail';
 my  $REPOSITORY   =  "git://$REPO_HOST/$ME/$REPO.git";
@@ -29,15 +29,11 @@ my %args = (
         'strict'             =>  0,
         'warnings'           =>  0,
     },
-    MIN_PERL_VERSION     =>   5.006,
+    MIN_PERL_VERSION     =>   5.010,
     AUTHOR               =>  "$ME <$LOCAL_ADDR\@$DOMAIN>",
     LICENSE              =>  'mit',
     META_MERGE           => {
-        test_requires    => {
-            'strict'             => 0,
-            'warnings'           => 0,
-            'Test::More'         => 0.88,
-        },
+        test_requires    => { },
         resources        => {
             repository   => $REPOSITORY,
         },
