@@ -33,6 +33,8 @@ Regexp::Common510
 
 Regexp::Common510::Net
 
+Regexp::Common510::Number
+
 =head1 BUGS
 
 =head1 TODO
